@@ -1,0 +1,19 @@
+{
+  "name": "feb8th",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeepnjeff/feb8th.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeepnjeff/feb8th/issues"
+  },
+  "homepage": "https://github.com/jeepnjeff/feb8th#readme"
+}
