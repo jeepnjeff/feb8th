@@ -5,9 +5,15 @@ font-family: 'Bangers', cursive;*/
 body {
   background-color: rgb(82, 82, 82);
 }
+
+/* Start of Row 1 Title box*/
+
 .rotate-title {
-  transform: rotate(-2deg);
+  transform: rotate(-1deg);
+  margin-left: 13px;
+  margin-top: 13px;
 }
+
 .title {
   font-family: 'Bangers', cursive;
   background-image: url(images/header.png);
@@ -16,18 +22,368 @@ body {
   background-repeat: no-repeat;
   padding: 5% 5% 5% 5%;
   color: #000;
-  border: 7px solid rgb(82, 82, 82);
-  }
+  border: 8px solid rgb(0, 0, 0);
+  margin-left: 25%;
+}
+
 .title-caption {
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 20%;
 }
-h1{
+
+h1 {
   font-size: 6em;
 }
-h2{
+
+h2 {
   font-size: 3em;
 }
-h3{
+
+h3 {
   font-size: 2em;
 }
+
+/* ********Start of Row 2*********/
+
+/*Start Box 1*/
+
+.row2-box1 {
+  background-image: url(images/image1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 8px solid rgb(0, 0, 0);
+  margin-top: 10px;
+  transform: rotate(1deg);
+}
+
+.bubble-box1 {
+  position: relative;
+  background: rgba(204, 204, 204, 0.9);
+  border-radius: .7em;
+  font-family: 'Bangers', cursive;
+  padding: 3%;
+  margin-left: 4%;
+  margin-bottom: 40%;
+  margin-top: 5%;
+  margin-right: 63%;
+  margin-left: 5%;
+  font-size: 2em;
+  text-align: center;
+}
+
+.bubble-box1:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border: 71px solid transparent;
+  border-left-color: rgba(204, 204, 204, 0.9);
+  border-right: 0;
+  border-bottom: 0;
+  margin-top: -70.5px;
+  margin-right: -64px;
+}
+
+/*End of Box 1*/
+
+/**** Start of Box 2******/
+
+.row2-box2 {
+  background-image: url(images/image2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 8px solid rgb(0, 0, 0);
+  margin-top: 10px;
+  padding-bottom: 10px;
+  transform: rotate(-1deg);
+}
+
+.bubble-box2 {
+  position: relative;
+  background: rgba(204, 204, 204, 0.9);
+  border-radius: .7em;
+  font-family: 'Bangers', cursive;
+  padding: 4%;
+  margin-left: 75%;
+  margin-bottom: 50%;
+  margin-top: 0%;
+  margin-right: 1%;
+  font-size: 2em;
+  text-align: center;
+}
+
+.bubble-box2:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 85%;
+  width: 0;
+  height: 0;
+  border: 30px solid transparent;
+  border-right-color: rgba(204, 204, 204, 0.9);
+  border-left: 0;
+  border-bottom: 0;
+  margin-top: -63.5px;
+  margin-left: -28px;
+}
+
+/* End of Row 2*/
+
+/***********Start of Row 3********/
+
+.row3-box3 {
+  background-image: url(images/image3.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 8px solid rgb(0, 0, 0);
+  margin-top: 10px;
+  transform: rotate(1deg);
+}
+
+.bubble-box3 {
+  position: relative;
+  background: rgba(204, 204, 204, 0.9);
+  border-radius: .7em;
+  font-family: 'Bangers', cursive;
+  padding: 4%;
+  margin-bottom: 2%;
+  margin-top: 45%;
+  margin-right: 56%;
+  margin-left: 1%;
+  font-size: 2em;
+  text-align: center;
+}
+
+.bubble-box3:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border: 52px solid transparent;
+  border-left-color: rgba(204, 204, 204, 0.9);
+  border-right: 0;
+  border-bottom: 0;
+  margin-top: -16.5px;
+  margin-right: -50px;
+}
+
+/*******End of Row 3************/
+
+/* ********Start of Row 4*********/
+
+/*Start Box 1 of Row 4*/
+.row4-box4 {
+  background-image: url(images/image4.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 8px solid rgb(0, 0, 0);
+  margin-top: 10px;
+  transform: rotate(1deg);
+}
+
+.bubble-box4 {
+  position: relative;
+  background: rgba(204, 204, 204, 0.9);
+  border-radius: .7em;
+  font-family: 'Bangers', cursive;
+  padding: 3%;
+  margin-bottom: 7%;
+  margin-top: 41%;
+  margin-right: 39%;
+  margin-left: 31%;
+  font-size: 2em;
+  text-align: center;
+}
+
+.bubble-box4:after {
+  content: '';
+  position: absolute;
+  top: 0;
+	left: 50%;
+  width: 0;
+  height: 0;
+  border: 51px solid transparent;
+  border-bottom-color: rgba(204, 204, 204, 0.9);
+  border-top: 0;
+  border-left: 0;
+  margin-left: -45.5px;
+  margin-top: -51px;
+}
+
+/*End of Box 1 of Row 4*/
+
+/**** Start of Box 2 of Row 4******/
+
+.row4-box5 {
+  background-image: url(images/image5.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 8px solid rgb(0, 0, 0);
+  margin-top: 10px;
+  padding-bottom: 10px;
+  transform: rotate(-1deg);
+}
+
+.bubble-box5 {
+  position: relative;
+background: rgba(204, 204, 204, 0.9);
+border-radius: .7em;
+font-family: 'Bangers', cursive;
+padding: 4%;
+margin-left: 60%;
+margin-bottom: 12%;
+margin-top: 39%;
+margin-right: 12%;
+font-size: 2em;
+text-align: center;
+}
+
+.bubble-box5:after {
+  content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: 25px solid transparent;
+    border-bottom-color: rgba(204, 204, 204, 0.9);
+    border-top: 0;
+    border-left: 0;
+    margin-left: 35.5px;
+    margin-top: -25px;
+}
+/* End of Row4*/
+
+/*******Start Row 5**********/
+.row5-box6 {
+  background-image: url(images/image6.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 8px solid rgb(0, 0, 0);
+  margin-top: 10px;
+  transform: rotate(1deg);
+}
+
+.bubble-box6 {
+position: relative;
+background: rgba(204, 204, 204, 0.9);
+border-radius: .7em;
+font-family: 'Bangers', cursive;
+padding: 4%;
+margin-bottom: 23%;
+margin-top: 37%;
+margin-right: 56%;
+margin-left: 1%;
+font-size: 2em;
+text-align: center;
+}
+
+.bubble-box6:after {
+  content: '';
+  	position: absolute;
+  	top: 0;
+  	left: 50%;
+  	width: 0;
+  	height: 0;
+  	border: 16px solid transparent;
+  	border-bottom-color: rgba(204, 204, 204, 0.9);
+  	border-top: 0;
+  	margin-left: -16px;
+  	margin-top: -16px;
+}
+/*********End Row 5************/
+
+/*****Start of Row 6**********/
+/*Box 7 of Row 6*/
+.row6-box7 {
+  background-image: url(images/image7.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 8px solid rgb(0, 0, 0);
+  margin-top: 10px;
+  transform: rotate(1deg);
+}
+
+.bubble-box7 {
+  position: relative;
+  background: rgba(204, 204, 204, 0.9);
+  border-radius: .7em;
+  font-family: 'Bangers', cursive;
+  padding: 4%;
+  margin-left: 40%;
+  margin-bottom: 8%;
+  margin-top: 60%;
+  margin-right: 1%;
+  font-size: 2em;
+  text-align: center;
+}
+
+.bubble-box7:after {
+  content: '';
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 16px solid transparent;
+	border-bottom-color: rgba(204, 204, 204, 0.9);
+	border-top: 0;
+	margin-left: 60px;
+	margin-top: -16px;
+}
+
+/*End of Box 7 of Row 6*/
+
+/**** Start of Box 8 of Row 6******/
+
+.row6-box8 {
+  background-image: url(images/image8.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 8px solid rgb(0, 0, 0);
+  margin-top: 10px;
+  padding-bottom: 10px;
+  transform: rotate(-1deg);
+}
+
+.bubble-box8 {
+  position: relative;
+  background: rgba(204, 204, 204, 0.9);
+  border-radius: .7em;
+  font-family: 'Bangers', cursive;
+  padding: 4%;
+  margin-left: 13%;
+  margin-bottom: 68%;
+  margin-top: 5%;
+  margin-right: 45%;
+  font-size: 2em;
+  text-align: center;
+}
+
+.bubble-box8:after {
+  content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top-color: rgba(204, 204, 204, 0.9);
+	border-bottom: 0;
+	border-right: 0;
+	margin-left: -10px;
+	margin-bottom: -20px;
+}
+/* End of 6th Row*/
